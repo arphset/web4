@@ -12,12 +12,13 @@
 
 .zetta {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: #000;
-  height: 30px;
+  height: 85px;
   width: 100%;
   padding: 0 12px;
-  align-items: center;
+  align-items: flex-start;
+  order: 1;
 }
 
 .branding-header {
@@ -58,7 +59,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 8px;
   align-items: flex-start;
   flex-wrap: wrap;
